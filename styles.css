@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+html {
+  background: url("http://i.stack.imgur.com/jGlzr.png") no-repeat 0 0 scroll;
+  background-color: #0c0c0c;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+#puzzle {
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid rebeccapurple;
+}
+
+.time{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-top: 5px;
+}
+
+.win{
+  font-size: 1.5rem;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left: 30px;
+}
+
+.time-cont{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.effect {
+  animation-name: anime;
+  animation-duration: 0.3s;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border: 1px solid rebeccapurple;
+  cursor: pointer;
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: url('./images/bg.jpg');
+  font-family: 'MonteCarlo', cursive;
+}
+.empty {
+  background:transparent;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose{
+  width: 60px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 10px;
+  background-color: burlywood;
+}
+.choose:hover{
+  background-color: teal;
+}
+.c-btn{
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 10px;
+  background-color: rgb(211, 132, 29);
+}
+.c-btn:hover{
+  background-color: teal;
+}
+
+#pause{
+  width: 240px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin: 10px;
+  background-color: rgb(211, 132, 29);
+  margin-top: 20px;
+}
+
+#pause:hover{
+  background-color: teal;
+}
+
+#begin{
+  background-color: rgb(33, 163, 54);
+}
+
+#begin:hover{
+  background-color: teal;
+}
